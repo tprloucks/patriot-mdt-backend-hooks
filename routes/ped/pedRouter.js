@@ -11,7 +11,7 @@ let {
     getAllPed,
     getPedByID,
 
-} = require("./controller/PedController")
+} = require("./controller/pedController")
 
 router.get("/get-all-ped", getAllPed)
 router.post("/create-ped", createPed)
