@@ -8,7 +8,7 @@ let{
     getAllOfficer,
     deleteOfficerByID
 
-}=require("./controller/OfficerController")
+}=require("./controller/officerController")
 
 router.get("/get-all-officer", getAllOfficer)
 router.post("/create-officer", createOfficer)
